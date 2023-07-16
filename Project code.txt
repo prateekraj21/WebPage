@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta charset="utf-8">
+	<style type="text/css">
+		
+	
+
+        *{
+            font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+        }
+		body{
+			background-image: linear-gradient(90deg, rgb(10, 10, 10) 0%, rgb(44, 32, 32) 50%, rgb(44, 36, 26) 100%);;
+		}
+
+		.nav{
+			text-align: center;
+			background-color: grey;
+			overflow: hidden;
+		}
+		.nav a{
+			float: left;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+		}
+
+.nav a:hover{
+	background-color: black;
+
+}
+
+
+	#t{
+			padding: 12px 15px;
+			color: white;
+			width: 100%;
+			cursor: pointer;
+
+
+		}
+
+		#t:hover{
+			background-color: green;
+		}
+
+
+		@media(max-width: 375px){
+			.nav{
+				display: none;
+			}
+		}
+
+		@media(max-width: 768px){
+			.nav{
+				width: 100px;
+				height: 200px;
+				overflow: hidden;
+				text-align: left;
+			}
+
+
+
+		}
+		
+
+		}
+
+	</style>
+
+	<title>Students Data</title>
+</head>
+<body >
+
+	<div class="nav">
+<a class="active" href="#home "><u>Home</u></a>
+  <a href="#about"><u>About</u></a>
+  <a href="#contact "><u>Contact us</u></a>
+	</div>
+	<h2 align="center" style="color: white;"><u>STUDENT DETAILS</u></h2>
+	
+
+
+
+<form style="background-image:linear-gradient(90deg, rgb(242, 243, 237) 0%, rgb(243, 241, 235) 50%, rgb(242, 247, 244) 100%);;  ; text-align: center; ">
+		<label for="fname"><b>First name</b></label>
+		<input type="text" name="Name" id="fname" placeholder="your name" minlength="3">
+		<br><br><br>
+
+		<label for="lname"><b>Last name</b></label>
+		<input type="text" name="Name" id="lname" placeholder="your last name" minlength="3">
+
+			<br><br><br>
+
+			<label for="email"><b>Email Address</b></label>
+		<input type="email" name="Name" id="lname" placeholder="your mail id">
+
+			<br><br><br>
+
+			<label for="birthday"><b>Date of birth<b></label>
+<input type="date" id="birthday" name="birthday">
+
+<br><br><br>
+
+		<label for="Branch" ><b>Select Branch</b></label>
+		<select id="Branch">
+			<option>CSE</option>
+			<option>ECE</option>
+			<option>MECH</option>
+			<option>CIVIL</option>
+			<option>METALLURGY</option>
+			<option>IT</option>
+			<option>AI</option>
+		</select>
+
+		<br><br><br>
+		<label><b>Hostel<b></label>
+			<br>
+
+		<input type="radio" name="xxx">
+		<label>Block 1</label>
+		<input type="radio" name="xxx">
+
+		<label>Block 2</label>
+
+		<br><br><br>
+
+		<label><b>programming languages known<b></label>
+			<br>
+<input type="checkbox" name="aaa">
+		<label>C/C++</label>
+		<input type="checkbox" name="aaa">
+	<label>Python</label>
+<input type="checkbox" name="aaa">
+	<label>Java</label>
+<input type="checkbox" name="aaa">
+	<label>C#</label>
+<br><br><br>
+	<label><b>Why do you want to join ISTE</b></label>
+<input type="textbox" name="aaav">
+
+<br><br><br>
+	<input type="submit" name="submit" style="background-color: black" id="t">
+
+
+	</form>
+
+
+	<script type="text/javascript">
+		
+
+
+
+	</script>
+
+
+</body>
+</html>
