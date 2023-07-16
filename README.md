@@ -1,2 +1,3 @@
 # WebPage
-This webpage takes in the student details in multiple formats
+This webpage was designed as a club requirement task for ISTE CRYPT.
+This webpage takes in the details of students in different formats.
